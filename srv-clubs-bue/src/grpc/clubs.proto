@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package clubs;
+
+service HandleClubsService {
+    rpc getClubs(EmptyParam) returns (ClubsResult) {}
+}
+
+message EmptyParam {
+}
+
+message ClubsResult {
+    repeated string clubs = 1;
+}
