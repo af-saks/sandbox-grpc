@@ -5,7 +5,7 @@ import { ClubsResult } from './clubs.interface';
 export class ClubsService {
   getClubs(): Promise<ClubsResult> {
     return Promise.resolve({
-      clubs: ['Santos', 'Palmeiras', 'Corinthians', 'São Paulo', 'Guarani'],
+      clubs: ['Portuguesa', 'Santos', 'Palmeiras', 'Corinthians', 'São Paulo', 'Guarani'],
     });
   }
 }
